@@ -6,7 +6,7 @@ classificadorFace = cv2.CascadeClassifier('cascades\\haarcascade_frontalface_def
 classificadorOlhos = cv2.CascadeClassifier('cascades\\haarcascade_eye.xml')
 
 # Carrega a imagem da Face e converte para cinza
-imagem = cv2.imread('pessoas\\eu2.jpg')
+imagem = cv2.imread('pessoas\\eu3.jpg')
 imagemCinza = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)
 
 # Faz a detecção da face (ou faces)
